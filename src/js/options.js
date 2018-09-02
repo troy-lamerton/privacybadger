@@ -99,6 +99,7 @@ function loadOptions() {
   $(".refreshButton").button("option", "icons", {primary: "ui-icon-refresh"});
   $(".addButton").button("option", "icons", {primary: "ui-icon-plus"});
   $(".removeButton").button("option", "icons", {primary: "ui-icon-minus"});
+  $(".editButton").button("option", "icons", {primary: "ui-icon-pencil"});
   $(".importButton").button("option", "icons", {primary: "ui-icon-plus"});
   $("#exportTrackers").button("option", "icons", {primary: "ui-icon-extlink"});
   $("#resetData").button("option", "icons", {primary: "ui-icon-arrowrefresh-1-w"});
